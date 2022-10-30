@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 200vh;
+            background-color: black;
+        }
+
+        .text {
+            font-size: 40px;
+            font-weight: 800;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 200px;
+            color: red;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            mix-blend-mode: difference;
+        }
+
+        .text p {
+            font-size: 20px;
+            color: white;
+        }
+
+        .dum {
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .dum:nth-child(1) {
+            top: 20px;
+            left: 40px;
+        }
+
+        .dum:nth-child(2) {
+            top: 200px;
+            right: 200px;
+            width: 300px;
+            height: 300px;
+        }
+
+        .dum:nth-child(3) {
+            top: 300px;
+            left: 140px;
+            width: 400px;
+            height: 400px;
+
+        }
+
+        .dum:nth-child(4) {
+            top: 200px;
+            left: 540px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dum rellax" data-rellax-speed="-3"><img src="/img/dino is google.png" alt=""></div>
+    <div class="dum rellax" data-rellax-speed="-6"></div>
+    <div class="dum rellax" data-rellax-speed="-5"></div>
+    <div class="dum rellax" data-rellax-speed="-7"></div>
+
+    <div class="text rellax" data-rellax-speed="-4">Go futboll <p>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Veniam quasi exercitationem delectus debitis fuga rem earum harum excepturi officiis odit perspiciatis
+            molestias minus odio, laudantium, quae illo, fugit consequuntur quidem nulla dolorum neque consequatur
+            adipisci in beatae. Accusamus, pariatur animi.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+        // Accepts any class name
+        var rellax = new Rellax('.rellax');
+    </script>
+</body>
+
+</html>
